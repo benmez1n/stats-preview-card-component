@@ -63,10 +63,10 @@ img{
 @font-face {
     font-family: Inter;
     font-weight: 400,700;
-    src: url(../font-family/Inter/Inter-VariableFont_slnt\,wght.ttf);
+    src: url(font/Inter/Inter-VariableFont_slnt\,wght.ttf);
 }
 @font-face {
     font-family: Lexend Deca;
     font-weight: 400;
-    src: url(../font-family/Lexend_Deca/LexendDeca-Regular.ttf);
+    src: url(font/Lexend_Deca/LexendDeca-Regular.ttf);
 }
