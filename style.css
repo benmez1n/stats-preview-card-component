@@ -11,19 +11,17 @@ body{background-color:hsl(233, 47%, 7%);}
 #card{
     background-color: hsl(244, 38%, 16%);
     border-radius: 10px;
-    width: 80%;
-    margin:2% auto;
 }
 p,#info-list span{
     color:hsla(0, 0%, 100%, 0.6);
     font-family: Lexend Deca;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 1.8;
 }
 h1{font-size: 22px;}
-#info{width: 50%;margin:40px auto 0 70px ;text-align:center}
+#info{margin:40px auto 0 70px}
 span:not(#info-list span){color:hsl(277, 64%, 61%)}
-#info-list h3{margin-bottom: 0;font-size: 16px;}
+#info-list h3{margin-bottom: 0;}
 #info-list :first-child h3{text-transform: lowercase;}
 #info-list{text-transform: uppercase;margin-bottom:30px;}
 #img-container {
@@ -36,6 +34,21 @@ img{
     border-radius: 10px 10px 0 0;
     opacity:0.65
 }
+/*mobile*/
+@media (max-width:769px){
+    #card,
+    #info-list{display: flex;flex-direction: column;}
+    #card{
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+    width: 80%;
+    margin:2% auto;
+    }
+    #info{width: 50%;text-align:center}
+    h3{font-size: 16px;}
+}
+
+/*......*/
 /*desktop*/
 @media (min-width:1200px){
     #card{
